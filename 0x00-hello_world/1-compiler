@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc  $CFILE -o -std=gnu89.o
+gcc -S $CFILE -o -std=gnu89.o
