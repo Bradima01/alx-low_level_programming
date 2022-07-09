@@ -1,1 +1,1 @@
-my work site, hello world
+hello world
