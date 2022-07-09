@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -27,3 +28,31 @@ int main(void)
 	return (0);
 }
 
+=======
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n < 0)
+{
+printf("%d is negative\n", n);
+}
+else if (n == 0)
+{
+printf("%d is zero\n", n);
+}
+else
+{
+printf("%d is positive\n", n);
+}
+return (0);
+>>>>>>> a29b7e839c0e4d8cc55a48ab549ab44dd222d28a
