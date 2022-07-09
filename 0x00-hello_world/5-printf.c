@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * description: main - prints out a string to stdout.
+ * Return: 0 success
  */
 int main(void)
 {
