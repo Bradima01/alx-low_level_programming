@@ -23,7 +23,7 @@ int main(void)
 	}
 	else
 	{
-	pintf("%d is 5s\n", n, "zero");
+	pintf("%d is %s\n", n, "zero");
 	}
 return (0);
 }
